@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/bootstrap.css" />
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+
+    <title>Login</title>
+  </head>
+  <body>
+    <nav class="bg-body-secondary p-3 fs-5">
+      <div
+        class="container d-flex justify-content-between align-items-center text-primary fw-bold"
+      >
+        <a
+          class="text-capitalize text-decoration-none pointer-event"
+          href="../index.html"
+          >online shopping</a
+        >
+      </div>
+    </nav>
+    <div class="registerPage">
+      <div class="container">
+        <form action="" class="regForm">
+          <div class="row mb-3">
+            <div class="col-6">
+              <label class="text-capitalize fw-bold" for="fn">first name</label>
+              <input type="text" id="fn" class="w-100" />
+            </div>
+            <div class="col-6">
+              <label class="text-capitalize fw-bold" for="ln">last name</label>
+              <input type="text" id="ln" class="w-100" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label class="text-capitalize fw-bold" for="email">email</label>
+              <input type="email" id="email" class="w-100 mb-3" required />
+
+              <label class="text-capitalize fw-bold" for="password"
+                >password</label
+              >
+              <input
+                type="password"
+                id="password"
+                class="w-100 mb-3"
+                required
+              />
+            </div>
+          </div>
+          <input type="submit" class="btn btn-primary register_btn" />
+        </form>
+      </div>
+    </div>
+
+    <script src="/JS/bootstrap.bundle.js"></script>
+    <script src="/JS/bootstrap.bundle.min.js"></script>
+    <script type="module" src="../JS/register.js"></script>
+  </body>
+</html>

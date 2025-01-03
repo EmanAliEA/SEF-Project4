@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/bootstrap.css" />
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+
+    <title>Login</title>
+  </head>
+  <body>
+    <nav class="bg-body-secondary p-3 fs-5">
+      <div
+        class="loginNav container d-flex justify-content-between align-items-center text-primary fw-bold"
+      >
+        <a
+          class="text-capitalize text-decoration-none pointer-event"
+          href="/index.html"
+          >online shopping</a
+        >
+      </div>
+    </nav>
+    <div class="loginPage">
+      <div class="container">
+        <form action="" class="formLogin">
+          <div class="row mb-3">
+            <div class="col">
+              <!-- <label for="email" class="text-capitalize fw-bold"
+                >email address</label
+              >
+              <input type="email" id="email" class="w-100" required />
+              <p class="fs-6">
+                Do you have an account?
+                <a
+                  href="register.html"
+                  class="text-decoration-none pointer-event fw-bold"
+                  >Register</a
+                >
+              </p>
+              <label for="password" class="text-capitalize fw-bold"
+                >password</label
+              >
+              <input
+                type="password"
+                id="password"
+                class="w-100"
+                minlength="8"
+                required
+              /> -->
+
+              <div class="form-floating">
+                <input
+                  type="email"
+                  class="form-control email-inp"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">Email address</label>
+              </div>
+              <p class="fs-6 mb-3">
+                Do you have an account?
+                <a
+                  href="register.html"
+                  class="text-decoration-none pointer-event fw-bold"
+                  >Register</a
+                >
+              </p>
+              <div class="form-floating">
+                <input
+                  type="password"
+                  class="form-control pass-inp"
+                  id="floatingPassword"
+                  placeholder="Password"
+                />
+                <label for="floatingPassword">Password</label>
+              </div>
+              <input type="checkbox" id="rem" class="ms-2 mt-3" />
+              <label for="rem">Remember me</label>
+            </div>
+          </div>
+          <input type="submit" class="btn btn-primary submit-login" />
+        </form>
+      </div>
+    </div>
+
+    <script src="/JS/bootstrap.bundle.js"></script>
+    <script src="/JS/bootstrap.bundle.min.js"></script>
+    <!-- <script src="JS/script.js"></script> -->
+    <script type="module" src="/JS/login.js"></script>
+  </body>
+</html>

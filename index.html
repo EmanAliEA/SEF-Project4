@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/all.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="bootstrap-icons-1.11.3/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="bootstrap-icons-1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>SEF-Project4</title>
+  </head>
+  <body>
+    <nav class="bg-body-secondary p-3 fs-5">
+      <div
+        class="nav container d-flex justify-content-between align-items-center text-primary fw-bold"
+      >
+        <a class="text-capitalize text-decoration-none pointer-event"
+          >online shopping</a
+        >
+        <a class="text-capitalize text-decoration-none welcomeName hidden"></a>
+
+        <!-- <div class="btn-group text-primary fw-bold">
+          <a class="btn text-capitalize" href="HTML/login.html">login</a>
+          <a class="btn text-capitalize" href="HTML/register.html">register</a>
+        </div> -->
+      </div>
+    </nav>
+    <div class="searchbox container d-flex justify-content-between gap-3">
+      <select class="categoryList">
+        <option value="name">Search by Name</option>
+        <option value="category">Search by Category</option>
+      </select>
+      <input type="text" placeholder="Search" class="searchInp" />
+    </div>
+    <main>
+      <div class="container">
+        <div class="row justify-content-center gap-3 list">
+          <!-- <div class="card p-2 mb-4 col-4" style="width: 20rem">
+            <img
+              src="https://th.bing.com/th/id/OIP.GKqtvWfc4zNEhm6yy-28AwAAAA?rs=1&pid=ImgDetMain"
+              class="card-img-top mb-2"
+              alt="..."
+            />
+            <div
+              class="card-body fw-bold d-flex flex-column justify-content-between"
+            >
+              <div class="details g-3">
+                <p class="mb-1">Product: T-shirt adidas</p>
+                <p class="mb-1">Price: 80$</p>
+                <p class="mb-4">Category: fashion</p>
+              </div>
+              <div class="footer d-flex justify-content-between">
+                <a href="#" class="btn btn-primary">Add to cart</a>
+                <i
+                  class="bi bi-heart-fill text-secondary fs-5 pointer-event"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="card p-2 mb-4 col-4" style="width: 20rem">
+            <img
+              src="https://th.bing.com/th/id/OIP.GKqtvWfc4zNEhm6yy-28AwAAAA?rs=1&pid=ImgDetMain"
+              class="card-img-top mb-2"
+              alt="..."
+            />
+            <div
+              class="card-body fw-bold d-flex flex-column justify-content-between"
+            >
+              <div class="details g-3">
+                <p class="mb-1">Product: T-shirt adidas</p>
+                <p class="mb-1">Price: 80$</p>
+                <p class="mb-4">Category: fashion</p>
+              </div>
+              <div class="footer d-flex justify-content-between">
+                <a href="#" class="btn btn-primary">Add to cart</a>
+                <i
+                  class="bi bi-heart-fill text-secondary fs-5 pointer-event"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="card p-2 mb-4 col-4" style="width: 20rem">
+            <img
+              src="https://th.bing.com/th/id/OIP.GKqtvWfc4zNEhm6yy-28AwAAAA?rs=1&pid=ImgDetMain"
+              class="card-img-top mb-2"
+              alt="..."
+            />
+            <div
+              class="card-body fw-bold d-flex flex-column justify-content-between"
+            >
+              <div class="details g-3">
+                <p class="mb-1">Product: T-shirt adidas</p>
+                <p class="mb-1">Price: 80$</p>
+                <p class="mb-4">Category: fashion</p>
+              </div>
+              <div class="footer d-flex justify-content-between">
+                <a href="#" class="btn btn-primary">Add to cart</a>
+                <i
+                  class="bi bi-heart-fill text-secondary fs-5 pointer-event"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="card p-2 mb-4 col-4" style="width: 20rem">
+            <img
+              src="https://th.bing.com/th/id/OIP.GKqtvWfc4zNEhm6yy-28AwAAAA?rs=1&pid=ImgDetMain"
+              class="card-img-top mb-2"
+              alt="..."
+            />
+            <div
+              class="card-body fw-bold d-flex flex-column justify-content-between"
+            >
+              <div class="details g-3">
+                <p class="mb-1">Product: T-shirt adidas</p>
+                <p class="mb-1">Price: 80$</p>
+                <p class="mb-4">Category: fashion</p>
+              </div>
+              <div class="footer d-flex justify-content-between">
+                <a href="#" class="btn btn-primary">Add to cart</a>
+                <i
+                  class="bi bi-heart-fill text-secondary fs-5 pointer-event"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="card p-2 mb-4 col-4" style="width: 20rem">
+            <img
+              src="https://th.bing.com/th/id/OIP.GKqtvWfc4zNEhm6yy-28AwAAAA?rs=1&pid=ImgDetMain"
+              class="card-img-top mb-2"
+              alt="..."
+            />
+            <div
+              class="card-body fw-bold d-flex flex-column justify-content-between"
+            >
+              <div class="details g-3">
+                <p class="mb-1">Product: T-shirt adidas</p>
+                <p class="mb-1">Price: 80$</p>
+                <p class="mb-4">Category: fashion</p>
+              </div>
+              <div class="footer d-flex justify-content-between">
+                <a href="#" class="btn btn-primary">Add to cart</a>
+                <i
+                  class="bi bi-heart-fill text-secondary fs-5 pointer-event"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="card p-2 mb-4 col-4" style="width: 20rem">
+            <img
+              src="https://th.bing.com/th/id/OIP.GKqtvWfc4zNEhm6yy-28AwAAAA?rs=1&pid=ImgDetMain"
+              class="card-img-top mb-2"
+              alt="..."
+            />
+            <div
+              class="card-body fw-bold d-flex flex-column justify-content-between"
+            >
+              <div class="details g-3">
+                <p class="mb-1">Product: T-shirt adidas</p>
+                <p class="mb-1">Price: 80$</p>
+                <p class="mb-4">Category: fashion</p>
+              </div>
+              <div class="footer d-flex justify-content-between">
+                <a href="#" class="btn btn-primary">Add to cart</a>
+                <i
+                  class="bi bi-heart-fill text-secondary fs-5 pointer-event"
+                ></i>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </main>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/all.js"></script>
+    <script src="JS/all.min.js"></script>
+    <script type="module" src="JS/script.js"></script>
+  </body>
+</html>

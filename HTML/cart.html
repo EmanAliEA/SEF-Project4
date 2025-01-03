@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/bootstrap.css" />
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/all.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="/bootstrap-icons-1.11.3/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <title>Login</title>
+  </head>
+  <body>
+    <nav class="bg-body-secondary p-3 fs-5">
+      <div
+        class="nav container d-flex justify-content-between align-items-center text-primary fw-bold"
+      >
+        <a
+          class="text-capitalize text-decoration-none pointer-event homePage"
+          href="../index.html"
+          >online shopping</a
+        >
+        <div class="btn-group text-primary fw-bold">
+          <a class="btn text-uppercase logoutBtn" href="login.html">logout</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="cart">
+      <div class="container p-3">
+        <div class="products m-auto mb-4 row justify-content-around">
+          <!-- <div
+            class="card mb-3 rounded-3 bg-secondary-subtle col-6"
+            style="max-width: 550px"
+          >
+            <div class="row g-0 align-items-center">
+              <div class="col-md-5 p-3">
+                <img
+                  src="https://th.bing.com/th/id/OIP.GKqtvWfc4zNEhm6yy-28AwAAAA?rs=1&pid=ImgDetMain"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <p class="fw-bold">Product: T-shirt adidas</p>
+                  <p class="fw-bold">Category: fashion</p>
+                  <p class="fw-bold">Price: 80$</p>
+                  <div
+                    class="btns d-flex align-items-center justify-content-between"
+                  >
+                    <div class="icons d-flex gap-2 align-items-center">
+                      <span class="quantity fw-bold fs-5">5</span>
+                      <i
+                        class="fa-solid fa-plus text-success fw-bold plusBtn"
+                      ></i>
+                      <i
+                        class="fa-solid fa-minus text-danger fw-bold minBtn"
+                      ></i>
+                    </div>
+                    <button class="btn btn-primary">Remove</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card mb-3 rounded-3 bg-secondary-subtle col-6"
+            style="max-width: 540px"
+          >
+            <div class="row g-0 align-items-center">
+              <div class="col-md-5 p-3">
+                <img
+                  src="https://th.bing.com/th/id/OIP.GKqtvWfc4zNEhm6yy-28AwAAAA?rs=1&pid=ImgDetMain"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <p class="fw-bold">Product: T-shirt adidas</p>
+                  <p class="fw-bold">Category: fashion</p>
+                  <p class="fw-bold">Price: 80$</p>
+                  <div
+                    class="btns d-flex align-items-center justify-content-between"
+                  >
+                    <div class="icons d-flex gap-2 align-items-center">
+                      <span class="quantity fw-bold fs-5">5</span>
+                      <i
+                        class="fa-solid fa-plus text-success fw-bold plusBtn"
+                      ></i>
+                      <i
+                        class="fa-solid fa-minus text-danger fw-bold minBtn"
+                      ></i>
+                    </div>
+                    <button class="btn btn-primary">Remove</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card mb-3 rounded-3 bg-secondary-subtle col-6"
+            style="max-width: 540px"
+          >
+            <div class="row g-0 align-items-center">
+              <div class="col-md-5 p-3">
+                <img
+                  src="https://th.bing.com/th/id/OIP.GKqtvWfc4zNEhm6yy-28AwAAAA?rs=1&pid=ImgDetMain"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <p class="fw-bold">Product: T-shirt adidas</p>
+                  <p class="fw-bold">Category: fashion</p>
+                  <p class="fw-bold">Price: 80$</p>
+                  <div
+                    class="btns d-flex align-items-center justify-content-between"
+                  >
+                    <div class="icons d-flex gap-2 align-items-center">
+                      <span class="quantity fw-bold fs-5">5</span>
+                      <i
+                        class="fa-solid fa-plus text-success fw-bold plusBtn"
+                      ></i>
+                      <i
+                        class="fa-solid fa-minus text-danger fw-bold minBtn"
+                      ></i>
+                    </div>
+                    <button class="btn btn-primary">Remove</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <p class="total fw-bold text-center fs-4 mb-5 total-price">
+          Total price: 0$
+        </p>
+        <p class="total fw-bold text-center fs-4 fav-sec m-auto">Favourite</p>
+
+        <div
+          class="favProducts container p-3 d-flex justify-content-center gap-4 overflow-hidden"
+        >
+          <!-- <div
+            class="card p-2 col-4 rounded-5 bg-secondary-subtle"
+            style="width: 18rem"
+          >
+            <div class="image p-5">
+              <img
+                src="https://th.bing.com/th/id/OIP.GKqtvWfc4zNEhm6yy-28AwAAAA?rs=1&pid=ImgDetMain"
+                class="card-img-top mb-2"
+                alt="..."
+              />
+            </div>
+            <div
+              class="card-body fw-bold d-flex align-items-center justify-content-between"
+            >
+              <div class="details g-3">
+                <p class="mb-1">Product: T-shirt adidas</p>
+                <p class="mb-4">Category: fashion</p>
+              </div>
+              <i class="bi bi-heart-fill text-secondary fs-5 pointer-event"></i>
+            </div>
+          </div>
+          <div
+            class="card p-2 col-4 rounded-5 bg-secondary-subtle"
+            style="width: 18rem"
+          >
+            <div class="image p-5">
+              <img
+                src="https://th.bing.com/th/id/OIP.GKqtvWfc4zNEhm6yy-28AwAAAA?rs=1&pid=ImgDetMain"
+                class="card-img-top mb-2"
+                alt="..."
+              />
+            </div>
+            <div
+              class="card-body fw-bold d-flex align-items-center justify-content-between"
+            >
+              <div class="details g-3">
+                <p class="mb-1">Product: T-shirt adidas</p>
+                <p class="mb-4">Category: fashion</p>
+              </div>
+              <i class="bi bi-heart-fill text-secondary fs-5 pointer-event"></i>
+            </div>
+          </div>
+          <div
+            class="card p-2 col-4 rounded-5 bg-secondary-subtle"
+            style="width: 18rem"
+          >
+            <div class="image p-5">
+              <img
+                src="https://th.bing.com/th/id/OIP.GKqtvWfc4zNEhm6yy-28AwAAAA?rs=1&pid=ImgDetMain"
+                class="card-img-top mb-2"
+                alt="..."
+              />
+            </div>
+            <div
+              class="card-body fw-bold d-flex align-items-center justify-content-between"
+            >
+              <div class="details g-3">
+                <p class="mb-1">Product: T-shirt adidas</p>
+                <p class="mb-4">Category: fashion</p>
+              </div>
+              <i class="bi bi-heart-fill text-secondary fs-5 pointer-event"></i>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <script src="/JS/bootstrap.bundle.min.js"></script>
+    <script src="/JS/all.js"></script>
+    <script src="/JS/all.min.js"></script>
+    <script type="module" src="/JS/cart.js"></script>
+  </body>
+</html>
